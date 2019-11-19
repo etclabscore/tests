@@ -1,146 +1,224 @@
 {
-    "InitCollision" : {
-        "_info" : {
-            "comment" : "account already has storage X. create -> in init code change that account's storage -> 0 -> change it to X again ",
-            "filledwith" : "testeth 1.7.0-alpha.1-21+commit.78355a28",
-            "lllcversion" : "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
-            "source" : "src/GeneralStateTestsFiller/stSStoreTest/InitCollisionFiller.json",
-            "sourceHash" : "89813ef3c9a96fc2c208361508c21064c6c5a316fa7858515f40b455daed0bc7"
-        },
-        "env" : {
-            "currentCoinbase" : "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-            "currentDifficulty" : "0x020000",
-            "currentGasLimit" : "0x989680",
-            "currentNumber" : "0x01",
-            "currentTimestamp" : "0x03e8",
-            "previousHash" : "0x5e20a0453cecd065ea59c37ac63e079ee08998b6045136a8ce6635c7912ec0b6"
-        },
-        "post" : {
-            "Constantinople" : [
-                {
-                    "hash" : "0x199b62b9cc6769ad4e9237054dd7c340f97051ef0de9e71c159d40ff6f13d37f",
-                    "indexes" : {
-                        "data" : 0,
-                        "gas" : 0,
-                        "value" : 0
-                    },
-                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+    "InitCollision": {
+        "_info": {
+            "comment": "account already has storage X. create -\u003e in init code change that account's storage -\u003e 0 -\u003e change it to X again ",
+            "filling-rpc-server": "",
+            "filling-tool-version": "",
+            "filledWith": "testeth 1.7.0-alpha.1-21+commit.78355a28",
+            "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
+            "source": "src/GeneralStateTestsFiller/stSStoreTest/InitCollisionFiller.json",
+            "sourceHash": "89813ef3c9a96fc2c208361508c21064c6c5a316fa7858515f40b455daed0bc7",
+            "written-with": "MultiGeth-1.9.5-unstable-06540a23bed8707b7e815a6c917d6dab426e8690",
+            "parent": "b5eb9900ee2147b40d3e681fe86efa4fd693959a_testdata_(PoC6-2240-gb5eb9900e)",
+            "parentSha1Sum": "6f9b26431013beaa5eba475f23cb65e851eb7f75",
+            "chainspecs": {
+                "Byzantium": {
+                    "filename": "byzantium_test.json",
+                    "sha1sum": "e7f7c0bbfca4f122b4bf347a29d01f2b7d74ff49"
                 },
-                {
-                    "hash" : "0x1f4d5b59709d0b92cdf24cdda13e8e575eb3743b1bac899949df67b0f889948d",
-                    "indexes" : {
-                        "data" : 1,
-                        "gas" : 0,
-                        "value" : 0
-                    },
-                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+                "Constantinople": {
+                    "filename": "constantinople_test.json",
+                    "sha1sum": "1bdd4e2e7c6c1b6f359f6859d0e9d9957ef87b19"
                 },
-                {
-                    "hash" : "0x39a328fe87817f8c61a857633171f21e45cb83920976c88ec0a48060d59ecabf",
-                    "indexes" : {
-                        "data" : 2,
-                        "gas" : 0,
-                        "value" : 0
-                    },
-                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+                "ConstantinopleFix": {
+                    "filename": "st_peters_test.json",
+                    "sha1sum": "ec19df316131381f765c26a91c80c1f152e7033e"
                 },
-                {
-                    "hash" : "0x26067c3f3f9f8ae914339879cef816f17a622fc53124051ae1ae2186a9b0acf7",
-                    "indexes" : {
-                        "data" : 3,
-                        "gas" : 0,
-                        "value" : 0
-                    },
-                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
-                }
-            ],
-            "ConstantinopleFix" : [
-                {
-                    "hash" : "0x139051dde801f51766169b243bc8c284facf15bdfd4d87fedea380156e83b7bf",
-                    "indexes" : {
-                        "data" : 0,
-                        "gas" : 0,
-                        "value" : 0
-                    },
-                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+                "EIP150": {
+                    "filename": "eip150_test.json",
+                    "sha1sum": "57195961b35fb0851681fb7e7d88140cd3161375"
                 },
-                {
-                    "hash" : "0x8120d159af881cf3ad597840c896b80412f17a2dde96331dd4a5c32793d4ec9e",
-                    "indexes" : {
-                        "data" : 1,
-                        "gas" : 0,
-                        "value" : 0
-                    },
-                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+                "EIP158": {
+                    "filename": "eip161_test.json",
+                    "sha1sum": "f966947a05efc0864bfd1b6af9fa4c2ebc51a0b9"
                 },
-                {
-                    "hash" : "0x6a0a503bf93554d97ef26267c70a5ad7841eb821bf4ba9c0c3cd4ee2866775d1",
-                    "indexes" : {
-                        "data" : 2,
-                        "gas" : 0,
-                        "value" : 0
-                    },
-                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+                "EIP158ToByzantiumAt5": {
+                    "filename": "transition_test.json",
+                    "sha1sum": "dad5079320f3585a2e9dff479e8a0789462a55b9"
                 },
-                {
-                    "hash" : "0x53582f0815b0ca44065c826a265f39e80b87cebcdb5ada730925eed6d884b0c9",
-                    "indexes" : {
-                        "data" : 3,
-                        "gas" : 0,
-                        "value" : 0
-                    },
-                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
-                }
-            ]
-        },
-        "pre" : {
-            "0x6295ee1b4f6dd65047762f924ecd367c17eabf8f" : {
-                "balance" : "0x00",
-                "code" : "",
-                "nonce" : "0x00",
-                "storage" : {
-                    "0x01" : "0x01"
-                }
-            },
-            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
-                "balance" : "0xe8d4a51000",
-                "code" : "",
-                "nonce" : "0x00",
-                "storage" : {
-                }
-            },
-            "0xdea0000000000000000000000000000000000000" : {
-                "balance" : "0x00",
-                "code" : "0x6001600155600060015560016002556000600255600160035560006003556001600455600060045560016005556000600555600160065560006006556001600755600060075560016008556000600855600160095560006009556001600a556000600a556001600b556000600b556001600c556000600c556001600d556000600d556001600e556000600e556001600f556000600f55600160105560006010556001600155",
-                "nonce" : "0x00",
-                "storage" : {
-                }
-            },
-            "0xfc597da4849c0d854629216d9e297bbca7bb4616" : {
-                "balance" : "0x00",
-                "code" : "",
-                "nonce" : "0x00",
-                "storage" : {
-                    "0x01" : "0x01"
+                "ETC_Agharta": {
+                    "filename": "classic_agharta_test.json",
+                    "sha1sum": "bfc7c2603d96c030427743d6d60b8b6843eca25b"
+                },
+                "ETC_Atlantis": {
+                    "filename": "classic_atlantis_test.json",
+                    "sha1sum": "be8bc53b78f2224f788e8ae685bf70644b6d9d3a"
+                },
+                "Frontier": {
+                    "filename": "frontier_test.json",
+                    "sha1sum": "74d5fe4f55e8d8628656d6ac542689e14dddbf3c"
+                },
+                "Homestead": {
+                    "filename": "homestead_test.json",
+                    "sha1sum": "52cdeb8c2c082c08852a6ded56755816f56a69cd"
+                },
+                "Istanbul": {
+                    "filename": "istanbul_test.json",
+                    "sha1sum": "44d8a9f4d33059c7d7d6c20cf930950470116b9a"
                 }
             }
         },
-        "transaction" : {
-            "data" : [
+        "env": {
+            "currentCoinbase": "2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentDifficulty": "0x20000",
+            "currentGasLimit": "0x989680",
+            "currentNumber": "0x1",
+            "currentTimestamp": "0x3e8"
+        },
+        "pre": {
+            "0x6295ee1b4f6dd65047762f924ecd367c17eabf8f": {
+                "storage": {
+                    "0x0000000000000000000000000000000000000000000000000000000000000001": "0x0000000000000000000000000000000000000000000000000000000000000001"
+                },
+                "balance": "0x0"
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "balance": "0xe8d4a51000"
+            },
+            "0xdea0000000000000000000000000000000000000": {
+                "code": "0x6001600155600060015560016002556000600255600160035560006003556001600455600060045560016005556000600555600160065560006006556001600755600060075560016008556000600855600160095560006009556001600a556000600a556001600b556000600b556001600c556000600c556001600d556000600d556001600e556000600e556001600f556000600f55600160105560006010556001600155",
+                "balance": "0x0"
+            },
+            "0xfc597da4849c0d854629216d9e297bbca7bb4616": {
+                "storage": {
+                    "0x0000000000000000000000000000000000000000000000000000000000000001": "0x0000000000000000000000000000000000000000000000000000000000000001"
+                },
+                "balance": "0x0"
+            }
+        },
+        "transaction": {
+            "gasPrice": "0x1",
+            "nonce": "0x0",
+            "to": "",
+            "data": [
                 "0x60006001556001600155",
                 "0x6000600a80601260003960006000f55000fe60006001556001600155",
                 "0x6000600a80601760003960006000f55060006000fd00fe60006001556001600155",
                 "0x6000600a80603760003960006000f5506000600060006000600073dea000000000000000000000000000000000000062030d40f15000fe60006001556001600155"
             ],
-            "gasLimit" : [
-                "0x030d40"
+            "gasLimit": [
+                "0x30d40"
             ],
-            "gasPrice" : "0x01",
-            "nonce" : "0x00",
-            "secretKey" : "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8",
-            "to" : "",
-            "value" : [
+            "value": [
                 "0x00"
+            ],
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
+        },
+        "out": "0x",
+        "post": {
+            "Constantinople": [
+                {
+                    "hash": "199b62b9cc6769ad4e9237054dd7c340f97051ef0de9e71c159d40ff6f13d37f",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "Indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "1f4d5b59709d0b92cdf24cdda13e8e575eb3743b1bac899949df67b0f889948d",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "Indexes": {
+                        "data": 1,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "39a328fe87817f8c61a857633171f21e45cb83920976c88ec0a48060d59ecabf",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "Indexes": {
+                        "data": 2,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "26067c3f3f9f8ae914339879cef816f17a622fc53124051ae1ae2186a9b0acf7",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "Indexes": {
+                        "data": 3,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ConstantinopleFix": [
+                {
+                    "hash": "139051dde801f51766169b243bc8c284facf15bdfd4d87fedea380156e83b7bf",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "Indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "8120d159af881cf3ad597840c896b80412f17a2dde96331dd4a5c32793d4ec9e",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "Indexes": {
+                        "data": 1,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "6a0a503bf93554d97ef26267c70a5ad7841eb821bf4ba9c0c3cd4ee2866775d1",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "Indexes": {
+                        "data": 2,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "53582f0815b0ca44065c826a265f39e80b87cebcdb5ada730925eed6d884b0c9",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "Indexes": {
+                        "data": 3,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Agharta": [
+                {
+                    "hash": "139051dde801f51766169b243bc8c284facf15bdfd4d87fedea380156e83b7bf",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "Indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "8120d159af881cf3ad597840c896b80412f17a2dde96331dd4a5c32793d4ec9e",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "Indexes": {
+                        "data": 1,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "6a0a503bf93554d97ef26267c70a5ad7841eb821bf4ba9c0c3cd4ee2866775d1",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "Indexes": {
+                        "data": 2,
+                        "gas": 0,
+                        "value": 0
+                    }
+                },
+                {
+                    "hash": "53582f0815b0ca44065c826a265f39e80b87cebcdb5ada730925eed6d884b0c9",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "Indexes": {
+                        "data": 3,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
             ]
         }
     }
