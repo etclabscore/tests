@@ -20,7 +20,7 @@
 	"sealEngine" : "NoProof",
 	"expect" : [
 	    {
-		    "network" : [">=Frontier"],
+		    "network" : [">=Istanbul"],
 		    "result" : {
 			    "095e7baea6a6c7c4c2dfeb977efac326af552d87" : {
 				"balance" : "100"
@@ -44,9 +44,11 @@
         },
         "blocks" : [
             {
-		"expectExceptionALL" : "InvalidUnclesHash",
                 "blockHeader" : {
-                    "uncleHash" : "0x0dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+                    "uncleHash" : "0xbadc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "expectException" : {
+                        "Istanbul" : "InvalidUnclesHash"
+                    }
                 },
                 "transactions" : [
                     {

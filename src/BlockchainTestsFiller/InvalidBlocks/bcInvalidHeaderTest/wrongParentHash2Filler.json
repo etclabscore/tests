@@ -20,7 +20,7 @@
 	"sealEngine" : "NoProof",
 	"expect" : [
 	    {
-		    "network" : [">=Frontier"],
+		    "network" : [">=Istanbul"],
 		    "result" : {
 			    "095e7baea6a6c7c4c2dfeb977efac326af552d87" : {
 				"balance" : "100"
@@ -44,10 +44,11 @@
         },
         "blocks" : [
             {
-		"expectExceptionALL" : "UnknownParent",
                 "blockHeader" : {
                     "parentHash" : "0x6151889c8f14ab46e32ee0b1894bc276416385d068a1ade000d0dadef9b08b18",
-		    "updatePoW" : "1"
+                    "expectException" : {
+                        "Istanbul" : "UnknownParent"
+                    }
                 },
                 "transactions" : [
                     {

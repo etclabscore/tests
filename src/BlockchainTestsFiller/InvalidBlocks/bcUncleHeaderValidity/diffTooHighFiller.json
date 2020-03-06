@@ -20,7 +20,7 @@
 	"sealEngine" : "NoProof",
 	"expect" : [
 	    {
-		    "network" : [">=Frontier"],
+		    "network" : [">=Istanbul"],
 		    "result" : {
 			    "095e7baea6a6c7c4c2dfeb977efac326af552d87" : {
 				"balance" : "10"
@@ -74,8 +74,13 @@
                 ]
             },
             {
-		"expectExceptionALL" : "InvalidDifficulty",
-                "transactions" : [
+                "blockHeader" : {
+                    "stateRoot" : "0xaf4765939e9fc7da9e2e4ba67d896c41f126e161f1b1f514a84fda61cff3d2ef",
+                    "expectException" : {
+                        "Istanbul" : "InvalidDifficulty"
+                    }
+                },
+        		"transactions" : [
                     {
                         "data" : "",
                         "gasLimit" : "314159",
@@ -88,9 +93,9 @@
                 ],
                 "uncleHeaders" : [
                     {
-			"difficulty" : "131073",
-			"populateFromBlock" : "1",
-			"overwriteAndRedoPoW" : "difficulty"
+            			"difficulty" : "131073",
+            			"populateFromBlock" : "1",
+            			"overwriteAndRedoPoW" : "difficulty"
                     }
                 ]
             }

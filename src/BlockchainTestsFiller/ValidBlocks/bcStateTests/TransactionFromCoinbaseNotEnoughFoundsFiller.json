@@ -23,19 +23,7 @@
 	    "sealEngine" : "NoProof",
         "expect" : [
             {
-                "network" : ["Frontier"],
-                "result" : {
-                    "a94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
-                        "nonce" : "0",
-                        "balance" : "5000000000000072000"
-                    },
-                    "b94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
-                        "shouldnotexist" : "1"
-                    }
-                }
-            },
-            {
-                "network" : [">=ConstantinopleFix"],
+                "network" : [">=Istanbul"],
                 "result" : {
                     "a94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
                         "nonce" : "0"
@@ -59,6 +47,7 @@
             {
                 "transactions" : [
                      {
+                        "invalid" : "1",
                         "data" : "",
                         "//cmnt" : "Fails due to gasLimit",
                         "gasLimit" : "81600",
@@ -69,6 +58,7 @@
                         "value" : "5000"
                     },
                     {
+                        "invalid" : "1",
                         "data" : "",
                         "gasLimit" : "51600",
                         "//cmnt" : "Fails due to gasLimit+value not enough funds",
@@ -79,6 +69,7 @@
                         "value" : "30000"
                     },
                     {
+                        "invalid" : "1",
                         "data" : "",
                         "gasLimit" : "51600",
                         "//cmnt" : "Fails due to value not enough funds",

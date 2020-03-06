@@ -23,27 +23,7 @@
 	"sealEngine" : "NoProof",
 	"expect" : [
 	   {
-		    "network" : ["Homestead"],
-		    "result" : {
-			    "0000000000000000000000000000000000000001" : {
-				"balance" : "1000"
-			    },
-			    "e3476106159f87477ad639e3ddcbb6b240efe459" : {
-				"balance" : "1",
-				"code" : ""
-			    },
-			    "a3476106159f87477ad639e3ddcbb6b240efe459" : {
-				"storage" : {
-				    "0x01" : "1"
-				}
-			    },
-			    "a94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
-				"nonce" : "2"
-			    }
-		   }
-	   },
-	   {
-		    "network" : [">=Constantinople"],
+		    "network" : [">=Istanbul"],
 		    "result" : {
 			    "0000000000000000000000000000000000000001" : {
 				"balance" : "1000"
@@ -86,24 +66,24 @@
         "blocks" : [
             {
                 "transactions" : [
-		 {
-			"data" : "",
-			"gasLimit" : "400000",
-			"gasPrice" : "1",
-			"nonce" : "0",
-			"secretKey" : "45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8",
-			"to" : "e3476106159f87477ad639e3ddcbb6b240efe459",
-			"value" : "0"
-		 },
-		 {
-			"data" : "",
-			"gasLimit" : "400000",
-			"gasPrice" : "1",
-			"nonce" : "1",
-			"secretKey" : "45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8",
-			"to" : "a3476106159f87477ad639e3ddcbb6b240efe459",
-			"value" : "0"
-		 }
+		             {
+			            "data" : "",
+			            "gasLimit" : "400000",
+			            "gasPrice" : "1",
+			            "nonce" : "0",
+			            "secretKey" : "45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8",
+			            "to" : "e3476106159f87477ad639e3ddcbb6b240efe459",
+			            "value" : "0"
+		             },
+		             {
+			            "data" : "",
+			            "gasLimit" : "400000",
+			            "gasPrice" : "1",
+			            "nonce" : "1",
+			            "secretKey" : "45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8",
+			            "to" : "a3476106159f87477ad639e3ddcbb6b240efe459",
+			            "value" : "0"
+		             }
                 ],
                 "uncleHeaders" : [
                 ]
