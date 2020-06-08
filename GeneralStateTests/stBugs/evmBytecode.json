@@ -1,63 +1,73 @@
 {
-    "evmBytecode" : {
-        "_info" : {
-            "comment" : "",
-            "filling-rpc-server" : "Geth-1.9.6-unstable-63b18027-20190920",
-            "filling-tool-version" : "retesteth-0.0.1+commit.0ae18aef.Linux.g++",
-            "lllcversion" : "Version: 0.5.12-develop.2019.9.13+commit.2d601a4f.Linux.g++",
-            "source" : "src/GeneralStateTestsFiller/stBugs/evmBytecodeFiller.json",
-            "sourceHash" : "1a33ecc625996b2bee3f7ab77b6aed3aab59f6f243d266b93f70a0d12912d80d"
+    "evmBytecode": {
+        "_info": {
+            "comment": "",
+            "filling-rpc-server": "Geth-1.9.6-unstable-63b18027-20190920",
+            "filling-tool-version": "retesteth-0.0.1+commit.0ae18aef.Linux.g++",
+            "filledWith": "",
+            "lllcversion": "Version: 0.5.12-develop.2019.9.13+commit.2d601a4f.Linux.g++",
+            "source": "src/GeneralStateTestsFiller/stBugs/evmBytecodeFiller.json",
+            "sourceHash": "1a33ecc625996b2bee3f7ab77b6aed3aab59f6f243d266b93f70a0d12912d80d",
+            "written-with": "",
+            "parent": "",
+            "parentSha1Sum": "",
+            "chainspecs": null
         },
-        "env" : {
-            "currentCoinbase" : "0x1000000000000000000000000000000000000000",
-            "currentDifficulty" : "0x020000",
-            "currentGasLimit" : "0x54a60a4202e088",
-            "currentNumber" : "0x01",
-            "currentTimestamp" : "0x03e8",
-            "previousHash" : "0x0da7f1041f7b60aec6b67cafa0c08c10c9954d0b43737891d204ff372d166593"
+        "env": {
+            "currentCoinbase": "1000000000000000000000000000000000000000",
+            "currentDifficulty": "0x20000",
+            "currentGasLimit": "0x54a60a4202e088",
+            "currentNumber": "0x1",
+            "currentTimestamp": "0x3e8"
         },
-        "post" : {
-            "Istanbul" : [
-                {
-                    "indexes" : {
-                        "data" : 0,
-                        "gas" : 0,
-                        "value" : 0
-                    },
-                    "hash" : "0x960c0b0b3f90a33ecc2bbf380769e425d01112fd92fa250c648165bf40a54a62",
-                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
-                }
-            ]
-        },
-        "pre" : {
-            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
-                "balance" : "0x38beec8feeca2598",
-                "code" : "0x",
-                "nonce" : "0x00",
-                "storage" : {
-                }
+        "pre": {
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "balance": "0x38beec8feeca2598"
             },
-            "0xb94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
-                "balance" : "0x00",
-                "code" : "0x67FFFFFFFFFFFFFFFF600160006000FB",
-                "nonce" : "0x3f",
-                "storage" : {
-                }
+            "0xb94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "code": "0x67ffffffffffffffff600160006000fb",
+                "balance": "0x0",
+                "nonce": "0x3f"
             }
         },
-        "transaction" : {
-            "data" : [
+        "transaction": {
+            "gasPrice": "0x1",
+            "nonce": "0x0",
+            "to": "0xb94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+            "data": [
                 "0x"
             ],
-            "gasLimit" : [
-                "0x01d4c0"
+            "gasLimit": [
+                "0x1d4c0"
             ],
-            "gasPrice" : "0x01",
-            "nonce" : "0x00",
-            "secretKey" : "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8",
-            "to" : "0xb94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-            "value" : [
+            "value": [
                 "0x00"
+            ],
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
+        },
+        "out": "0x",
+        "post": {
+            "ETC_Phoenix": [
+                {
+                    "hash": "960c0b0b3f90a33ecc2bbf380769e425d01112fd92fa250c648165bf40a54a62",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "Indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "Istanbul": [
+                {
+                    "hash": "960c0b0b3f90a33ecc2bbf380769e425d01112fd92fa250c648165bf40a54a62",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "Indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
             ]
         }
     }
