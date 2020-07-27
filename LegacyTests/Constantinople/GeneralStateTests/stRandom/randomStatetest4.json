@@ -8,9 +8,9 @@
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stRandom/randomStatetest4Filler.json",
             "sourceHash": "511cac7fb9f7f4a03ed22424d304a06efaa54f9cd5be94fe39ab50a2efc0e350",
-            "written-with": "CoreGeth-1.11.6-unstable-5bb1b556caaa62ee5398b20c951ada06c8de422e",
-            "parent": "7497b116a019beb26215cbea4028df068dea06be_testdata_(PoC6-2318-g7497b116a0)",
-            "parentSha1Sum": "9e149790754f9b21de320d5996479c88d43abad7",
+            "written-with": "CoreGeth-1.11.9-unstable-6e2f1d98ce02058c9a5dac87e6f9d2c1d24bb0f6",
+            "parent": "44905c4e54d030b0cc9fc873820474f302e9f74c_testdata_(PoC6-2320-g44905c4e54)",
+            "parentSha1Sum": "5a90f3c16ed5b53facf759f1792fd759e6c2b0c4",
             "chainspecs": {
                 "Byzantium": {
                     "filename": "byzantium_test.json",
@@ -21,7 +21,7 @@
                     "sha1sum": "12ddb0c3b170e1fa8649451a29b92dd206378ec0"
                 },
                 "ConstantinopleFix": {
-                    "filename": "st_peters_test.json",
+                    "filename": "constantinople_fix_test.json",
                     "sha1sum": "3011c4943cafc0086d58523ed1419513147dfb3e"
                 },
                 "EIP150": {
@@ -33,8 +33,8 @@
                     "sha1sum": "699d29c33e7fc6f0c2b498e7213950ba55736e75"
                 },
                 "EIP158ToByzantiumAt5": {
-                    "filename": "transition_test.json",
-                    "sha1sum": "ea324c89c7616316095017e8547bad7dc2af41a1"
+                    "filename": "eip158_to_byzantiumat5_test.json",
+                    "sha1sum": "22fe60eb6df433aa20ea5ab1c746a5628b02215d"
                 },
                 "ETC_Agharta": {
                     "filename": "classic_agharta_test.json",
